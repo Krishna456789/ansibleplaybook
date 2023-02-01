@@ -1,0 +1,9 @@
+---
+  - name: install
+    hosts: all
+    become: yes
+    tasks:
+        name : installling apache2 
+        ansiblie.builtin.apt:
+          name: apache2
+          state: present
