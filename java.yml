@@ -8,3 +8,4 @@
           name: apache2
           state: present
           ansible.builtin.apt
+          -name:apache2
